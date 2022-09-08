@@ -1,0 +1,24 @@
+{% extends 'modals/forms/base.html' %}
+
+<!--- Modal Id--> 
+{% block modal-id %} id="frontendModal"{% endblock modal-id %}
+
+<!-- Modal Title -->
+{% block modal-title %} Frontend Opportunity {% endblock modal-title %}
+
+<!-- Form Action-->
+{% block action %} action="/email_frontend" {% endblock action %} 
+
+<!-- form Validation-->
+{% block validation %} onsubmit="return validateForm()" {% endblock validation  %}
+
+<!--================== INPUT ID =========================-->
+{% block id-name %} id="name" {% endblock id-name  %}
+{% block id-age %} id="age" {% endblock id-age  %}
+{% block id-email %} id="email" {% endblock id-email  %}
+{% block id-phone %} id="phone" {% endblock id-phone  %}
+{% block id-address %} id="address" {% endblock id-address  %}
+{% block id-experience %} id="experience" {% endblock id-experience  %}
+{% block id-skills %} id="skills" {% endblock id-skills  %}
+{% block id-file %} id="file" {% endblock id-file  %}
+
